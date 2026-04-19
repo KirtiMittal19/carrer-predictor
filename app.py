@@ -136,7 +136,7 @@ h2, h3 {{
 
 @media (max-width: 600px) {{
     .stat-row {{ grid-template-columns: repeat(2, 1fr); }}
-    .stat-pill-label {{ font-size: 0.65rem; white-space: nowrap;} }
+    .stat-pill-label {{ font-size: 0.65rem; white-space: nowrap; }}
     .stat-pill-val {{ font-size: 1.1rem; white-space: nowrap; }}
     .top-card-title {{ font-size: 1.3rem; }}
 }}
