@@ -135,10 +135,10 @@ h2, h3 {{
 .stat-row {{ display:grid; grid-template-columns: repeat(5, 1fr); gap:0.6rem; margin:1rem 0; }}
 
 @media (max-width: 600px) {{
-    .stat-row { grid-template-columns: repeat(2, 1fr); }
-    .stat-pill-label { font-size: 0.65rem; white-space: nowrap; }
-    .stat-pill-val { font-size: 1.1rem; white-space: nowrap; }
-    .top-card-title { font-size: 1.3rem; }
+    .stat-row {{ grid-template-columns: repeat(2, 1fr); }}
+    .stat-pill-label {{ font-size: 0.65rem; white-space: nowrap;} }
+    .stat-pill-val {{ font-size: 1.1rem; white-space: nowrap; }}
+    .top-card-title {{ font-size: 1.3rem; }}
 }}
 .stat-pill {{
     background: #fff;
